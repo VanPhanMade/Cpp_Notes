@@ -1,9 +1,19 @@
 // https://cplusplus.com/doc/tutorial/preprocessor/
 #include <iostream>
 #include "Log.h"
+#include "Player.h"
+#include "Calculations.h"
 
 #define INTEGER int
 
+
+float CalculateForce(float mass, float acceleration)
+{
+	float force = mass * acceleration;
+	force += 32123123.0f; // air resistance
+	force + 321.0f; // drag
+	return force;
+}
 
 int Multiply(int a, int b) {
 	return a * b;
@@ -35,16 +45,18 @@ void IncreaseIntRef(int& value)
 	value++;
 }
 
-
+int s_StaticInt;
 
 INTEGER main()
 {
 	// https://www.geeksforgeeks.org/cpp-data-types/
 	int randomInt = 361283;
 	randomInt = 31297319;
-
-	int age = 23; // number w/o decimals
+	int age; // 0
+	age = 23;
 	int yourAge;
+
+	std::cout << "Sum " << Add(10, 10, 10) << std::endl;
 
 	float timer = 25.323f;
 	bool condition = true;
@@ -55,9 +67,9 @@ INTEGER main()
 	age++; // Postfix Incrementation
 	++age; // Prefix Incrementation
 
-	std::cout << "My age: " << age << std::endl;
+	std::cout << "My age: " << age << std::endl; // 25
 
-	std::cout << "My brother's age: " << age++ << std::endl;
+	std::cout << "My brother's age: " << ++age << std::endl;
 	std::cout << "My brother's real age after re-reading: " << age << std::endl;
 
 	// https://www.geeksforgeeks.org/cpp-literals/
@@ -68,8 +80,8 @@ INTEGER main()
 	std::cout << "My random letter: " << someLetter << std::endl;
 
 	// ---- More Data Type examples ----
-	float floatVariable = 5.5f;   // 4 bytes
-	double doubleVariable = 5.2; // 8 bytes
+	float floatVariable = 5.5f;   // 4 bytes 
+	double doubleVariable = 5.2; // 8 bytes 
 	// https://www.avertx.com/faqs/what-is-the-difference-between-a-data-bit-and-a-byte/#:~:text=Digital%20information%20is%20transferred%20in,a%20small%20amount%20of%20data.
 	std::cout << "First variable: " << sizeof(floatVariable) << " Second variable: " << sizeof(doubleVariable) << std::endl;
 
@@ -162,8 +174,13 @@ INTEGER main()
 
 	std::cout << "Value of someIntPtr: " << *someIntegerPtr << " , Value of int: " << someInteger << std::endl;
 
+	// Enum
+	PlayerType player1Type = PlayerType::Archer;
+	
 	// Classes
+	Player fightingCharacter(PlayerType::Fighter);
 
-	std::cout << "Hello World! " << std::endl;
+	// std::cout << "Falling apple force: " << CalculateForce( 50000000, 312793) << std::endl;
+
 	std::cin.get();
 }

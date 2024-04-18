@@ -1,0 +1,1 @@
+const static int s_StaticInt = 10;
