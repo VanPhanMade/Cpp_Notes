@@ -3,6 +3,7 @@
 #include "Log.h"
 #include "Player.h"
 #include "Calculations.h"
+#include "VariablesAndDataTypes.h"
 
 #define INTEGER int
 
@@ -50,16 +51,12 @@ int s_StaticInt;
 INTEGER main()
 {
 	// https://www.geeksforgeeks.org/cpp-data-types/
-	int randomInt = 361283;
-	randomInt = 31297319;
 	int age; // 0
 	age = 23;
 	int yourAge;
+	VariablesAndDataTypes* demo1 = new VariablesAndDataTypes();
 
 	std::cout << "Sum " << Add(10, 10, 10) << std::endl;
-
-	float timer = 25.323f;
-	bool condition = true;
 
 	std::cout << age << std::endl;
 
@@ -74,16 +71,6 @@ INTEGER main()
 
 	// https://www.geeksforgeeks.org/cpp-literals/
 	std::cout << "Our age multiplied: " << Multiply(23, age) << std::endl;
-
-	// The primative types
-	char someLetter = 65;
-	std::cout << "My random letter: " << someLetter << std::endl;
-
-	// ---- More Data Type examples ----
-	float floatVariable = 5.5f;   // 4 bytes 
-	double doubleVariable = 5.2; // 8 bytes 
-	// https://www.avertx.com/faqs/what-is-the-difference-between-a-data-bit-and-a-byte/#:~:text=Digital%20information%20is%20transferred%20in,a%20small%20amount%20of%20data.
-	std::cout << "First variable: " << sizeof(floatVariable) << " Second variable: " << sizeof(doubleVariable) << std::endl;
 
 	// Function declarations/promises
 	Log("Hello World!");
