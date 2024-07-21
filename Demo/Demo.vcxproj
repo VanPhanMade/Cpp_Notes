@@ -127,15 +127,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Calculations.cpp" />
-    <ClCompile Include="Log.cpp" />
+    <ClCompile Include="ControlStructures.cpp" />
+    <ClCompile Include="FunctionConcepts.cpp" />
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Operators.cpp" />
     <ClCompile Include="Player.cpp" />
     <ClCompile Include="VariablesAndDataTypes.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Calculations.h" />
-    <ClInclude Include="Log.h" />
+    <ClInclude Include="ControlStructures.h" />
+    <ClInclude Include="FunctionConcepts.h" />
+    <ClInclude Include="Operators.h" />
     <ClInclude Include="Player.h" />
     <ClInclude Include="VariablesAndDataTypes.h" />
   </ItemGroup>
