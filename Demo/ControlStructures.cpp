@@ -112,18 +112,18 @@ ControlStructures::ControlStructures()
 	cout << endl;
 	switch (difficulty)
 	{
-	case 0:
-		cout << "Easy difficulty choosen!" << endl;
-		break;
-	case 1:
-		cout << "Medium difficulty choosen!" << endl;
-		break;
-	case 2:
-		cout << "Hard difficulty choosen!" << endl;
-		break;
-	default:
-		cout << "So you've picked impossible difficulty choosen!" << endl;
-		break;
+		case 0:
+			cout << "Easy difficulty choosen!" << endl;
+			break;
+		case 1:
+			cout << "Medium difficulty choosen!" << endl;
+			break;
+		case 2:
+			cout << "Hard difficulty choosen!" << endl;
+			break;
+		default:
+			cout << "So you've picked impossible difficulty choosen!" << endl;
+			break;
 	}
 
 }

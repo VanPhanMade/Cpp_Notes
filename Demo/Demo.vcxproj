@@ -127,18 +127,34 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ArrayDemo.cpp" />
+    <ClCompile Include="AverageDayGame.cpp" />
+    <ClCompile Include="Calculator.cpp" />
+    <ClCompile Include="ChildClass.cpp" />
     <ClCompile Include="ControlStructures.cpp" />
     <ClCompile Include="FunctionConcepts.cpp" />
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="OOPConcepts.cpp" />
     <ClCompile Include="Operators.cpp" />
     <ClCompile Include="Player.cpp" />
+    <ClCompile Include="Spellbook.cpp" />
+    <ClCompile Include="TicTacToe.cpp" />
+    <ClCompile Include="TreasureCollection.cpp" />
     <ClCompile Include="VariablesAndDataTypes.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="ArrayDemo.h" />
+    <ClInclude Include="AverageDayGame.h" />
+    <ClInclude Include="Calculator.h" />
+    <ClInclude Include="ChildClass.h" />
     <ClInclude Include="ControlStructures.h" />
     <ClInclude Include="FunctionConcepts.h" />
+    <ClInclude Include="OOPConcepts.h" />
     <ClInclude Include="Operators.h" />
     <ClInclude Include="Player.h" />
+    <ClInclude Include="Spellbook.h" />
+    <ClInclude Include="TicTacToe.h" />
+    <ClInclude Include="TreasureCollection.h" />
     <ClInclude Include="VariablesAndDataTypes.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

@@ -13,42 +13,102 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Header Files\Demos">
+      <UniqueIdentifier>{20bd6d48-15fb-4770-9105-d03a40a28152}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ConceptReview">
+      <UniqueIdentifier>{597a627d-c342-477c-9b9f-9d2f9ddccbf4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Demos">
+      <UniqueIdentifier>{0a51f321-7d68-43eb-8047-bbab18bf36f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ConceptReview">
+      <UniqueIdentifier>{e0920aad-9af1-4df0-8b9d-d180f4ffb061}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Player.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="AverageDayGame.cpp">
+      <Filter>Source Files\Demos</Filter>
     </ClCompile>
-    <ClCompile Include="VariablesAndDataTypes.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Operators.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="ChildClass.cpp">
+      <Filter>Source Files\ConceptReview</Filter>
     </ClCompile>
     <ClCompile Include="ControlStructures.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\ConceptReview</Filter>
     </ClCompile>
     <ClCompile Include="FunctionConcepts.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\ConceptReview</Filter>
+    </ClCompile>
+    <ClCompile Include="OOPConcepts.cpp">
+      <Filter>Source Files\ConceptReview</Filter>
+    </ClCompile>
+    <ClCompile Include="Operators.cpp">
+      <Filter>Source Files\ConceptReview</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files\ConceptReview</Filter>
+    </ClCompile>
+    <ClCompile Include="VariablesAndDataTypes.cpp">
+      <Filter>Source Files\ConceptReview</Filter>
+    </ClCompile>
+    <ClCompile Include="Calculator.cpp">
+      <Filter>Source Files\Demos</Filter>
+    </ClCompile>
+    <ClCompile Include="ArrayDemo.cpp">
+      <Filter>Source Files\Demos</Filter>
+    </ClCompile>
+    <ClCompile Include="TreasureCollection.cpp">
+      <Filter>Source Files\Demos</Filter>
+    </ClCompile>
+    <ClCompile Include="Spellbook.cpp">
+      <Filter>Source Files\Demos</Filter>
+    </ClCompile>
+    <ClCompile Include="TicTacToe.cpp">
+      <Filter>Source Files\ConceptReview</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Player.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="AverageDayGame.h">
+      <Filter>Header Files\Demos</Filter>
     </ClInclude>
-    <ClInclude Include="VariablesAndDataTypes.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Operators.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="ChildClass.h">
+      <Filter>Header Files\ConceptReview</Filter>
     </ClInclude>
     <ClInclude Include="ControlStructures.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\ConceptReview</Filter>
     </ClInclude>
     <ClInclude Include="FunctionConcepts.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\ConceptReview</Filter>
+    </ClInclude>
+    <ClInclude Include="OOPConcepts.h">
+      <Filter>Header Files\ConceptReview</Filter>
+    </ClInclude>
+    <ClInclude Include="Operators.h">
+      <Filter>Header Files\ConceptReview</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files\ConceptReview</Filter>
+    </ClInclude>
+    <ClInclude Include="VariablesAndDataTypes.h">
+      <Filter>Header Files\ConceptReview</Filter>
+    </ClInclude>
+    <ClInclude Include="Calculator.h">
+      <Filter>Header Files\Demos</Filter>
+    </ClInclude>
+    <ClInclude Include="ArrayDemo.h">
+      <Filter>Header Files\Demos</Filter>
+    </ClInclude>
+    <ClInclude Include="TreasureCollection.h">
+      <Filter>Header Files\Demos</Filter>
+    </ClInclude>
+    <ClInclude Include="Spellbook.h">
+      <Filter>Header Files\Demos</Filter>
+    </ClInclude>
+    <ClInclude Include="TicTacToe.h">
+      <Filter>Header Files\ConceptReview</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

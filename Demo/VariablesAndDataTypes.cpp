@@ -8,23 +8,23 @@ VariablesAndDataTypes::VariablesAndDataTypes()
 	// https://www.geeksforgeeks.org/cpp-data-types/
 	// ** Primary primative types
 	int firstInt = 0;
-	std::cout << "Int: " << firstInt << " Size: " << sizeof(firstInt) << " bytes." << std::endl;
+	cout << "Int: " << firstInt << " Size: " << sizeof(firstInt) << " bytes." << std::endl;
 	char firstChar = 'k'; // char firstChar = 23;
-	std::cout << "Char: " << firstChar << " Size: " << sizeof(firstChar) << " bytes." << std::endl;
+	cout << "Char: " << firstChar << " Size: " << sizeof(firstChar) << " bytes." << std::endl;
 	bool firstBool = true;
-	std::cout << "Bool: " << firstBool << " Size: " << sizeof(firstBool) << " bytes." << std::endl;
+	cout << "Bool: " << firstBool << " Size: " << sizeof(firstBool) << " bytes." << std::endl;
 	float firstFloat = 5.123f;
-	std::cout << "float: " << firstFloat << " Size: " << sizeof(firstFloat) << " bytes." << std::endl;
+	cout << "float: " << firstFloat << " Size: " << sizeof(firstFloat) << " bytes." << std::endl;
 	double firstDouble = 5.123;
-	std::cout << "double: " << firstDouble << " Size: " << sizeof(firstDouble) << " bytes." << std::endl;
+	cout << "double: " << firstDouble << " Size: " << sizeof(firstDouble) << " bytes." << std::endl;
 	// void is also a primative type
 	// 
 
 	// Modifiers
 	short int firstShortInt = 40000;
-	std::cout << "Short Int: " << firstShortInt << " Size: " << sizeof(firstShortInt) << " bytes." << std::endl;
+	cout << "Short Int: " << firstShortInt << " Size: " << sizeof(firstShortInt) << " bytes." << std::endl;
 	unsigned short int firstUnsignedShortInt = 40000;
-	std::cout << "Unsigned Short Int: " << firstUnsignedShortInt << " Size: " << sizeof(firstUnsignedShortInt) << " bytes." << std::endl;
+	cout << "Unsigned Short Int: " << firstUnsignedShortInt << " Size: " << sizeof(firstUnsignedShortInt) << " bytes." << std::endl;
 
 	// long int goes up to -2,147,483,648 to 2,147,483,647
 	// long long int
@@ -34,7 +34,13 @@ VariablesAndDataTypes::VariablesAndDataTypes()
 	// Expression types: Literals, Variables, Operators, Function Calls
 	// Code that yields a result is an 'expression'
 	// Literals: https://www.geeksforgeeks.org/cpp-literals/
+
 	5;
-	5 + 5;
+	5 + 5;							// Arithmetic Expression
+	firstInt > 0;					// Relational Expression
+	!(firstFloat < 0);				// Logical Expression
+	int x;
+	x = 10;							// Assignment Expression
+	x = (10 + 10) + 7 * (8 + 2);	// Compound Expression
 
 }

@@ -28,7 +28,18 @@ void Add(int a, int b, int c) {
 // ------ Inline Functions ------ 
 // https://www.geeksforgeeks.org/inline-functions-cpp/
 
-inline int cubicOf(int a) { return a * a * a; }
+inline int CubicOf(int a) { return a * a * a; }
+
+// ------ Recursion ------
+int Fibonacci(int n)
+{
+	// n is the index in our number sequence
+	// Fn = Fn-1 + Fn-2
+	// Where the initial sequence is 0, 1, 1, 2, 3, 5, 8, 13, 21
+	if (n <= 1)
+		return n;
+	return Fibonacci(n - 1) + Fibonacci(n - 2);
+}
 
 
 FunctionConcepts::FunctionConcepts()
@@ -40,4 +51,10 @@ FunctionConcepts::FunctionConcepts()
 	Add(1.467, 12.6);
 	// vs
 	Add(1, 1, 1);
+
+	int n = 0;
+	cout << "Enter a number for Fibonacci sequence: ";
+	cin >> n;
+	cout << endl;
+	cout << "Fibonacci of " << n << " is: " << Fibonacci(n) << endl;
 }

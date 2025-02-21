@@ -1,5 +1,4 @@
 #pragma once
-
 enum PlayerType
 {
 	Fighter,
@@ -10,13 +9,14 @@ enum PlayerType
 
 class Player
 {
-
 private:
 	PlayerType playerType;
 protected:
 
 public:
+	Player();
 	Player(PlayerType _playerType);
+	int Accounts = 21;
 	
 };
 

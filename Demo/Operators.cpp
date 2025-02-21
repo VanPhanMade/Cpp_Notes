@@ -131,6 +131,6 @@ Operators::Operators()
     // https://press.rebus.community/programmingfundamentals/chapter/increment-and-decrement-operators/
     int age = 44;
     cout << " Postfix age = " << age++ << endl;
-    cout << " Postfix age = " << ++age << endl; 
+    cout << " Prefix age = " << ++age << endl; 
     cout << " Final age = " << age << endl;
 }
